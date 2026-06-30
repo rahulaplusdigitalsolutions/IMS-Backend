@@ -1,0 +1,37 @@
+{
+  "name": "apds-ims-backend",
+  "version": "1.0.0",
+  "description": "APDS Inventory Management System - Backend API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "docxtemplater": "^3.68.7",
+    "dotenv": "^17.4.2",
+    "express": "^4.22.1",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^8.5.2",
+    "helmet": "^8.2.0",
+    "jsonwebtoken": "^9.0.3",
+    "mammoth": "^1.12.0",
+    "multer": "^2.1.1",
+    "mysql2": "^3.22.0",
+    "nodemailer": "^9.0.1",
+    "pdf-parse": "^1.1.1",
+    "pizzip": "^3.2.0",
+    "uuid": "^13.0.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.1.0"
+  }
+}

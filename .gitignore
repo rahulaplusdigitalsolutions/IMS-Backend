@@ -1,0 +1,6 @@
+.env
+node_modules/
+uploads/
+*.log
+hostinger_error.log
+error.log
